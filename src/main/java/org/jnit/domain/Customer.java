@@ -19,6 +19,7 @@ public class Customer implements Serializable {
 	private String country;
 	private String zipCode;
 	private String postcode;
+	private String apt;
 
 	private PhoneInformation phoneInfo;
 	private List<Order> orders = new ArrayList<Order>();
