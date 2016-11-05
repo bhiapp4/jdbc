@@ -18,6 +18,7 @@ public class Customer implements Serializable {
 	private String state;
 	private String country;
 	private String zipCode;
+	private String postcode;
 
 	private PhoneInformation phoneInfo;
 	private List<Order> orders = new ArrayList<Order>();
